@@ -31,12 +31,12 @@ function App() {
         <section style={{ marginBottom: '2rem' }}>
           <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>What I'd Change</h2>
           <p>
-            If I could change one thing, I'd introduce immediate pre-flight checks before the build pipeline fully engages. Catching missing `.env` variables or invalid build commands before provisioning the container would tighten the feedback loop significantly.
+            If I could change one thing, I'd prioritize fixing the initial onboarding billing state. For a developer trying out a PaaS for the first time, being blocked by a false "0 minutes remaining" error completely kills momentum. Additionally, cleaning up the z-index constraints on the floating action buttons would keep the onboarding UI feeling as polished as the rest of the platform.
           </p>
         </section>
 
         <div style={{ padding: '1rem', background: '#f5f5f5', borderRadius: '8px', borderLeft: '4px solid #333' }}>
-          <strong>Conclusion:</strong> Brimble's core loop is exceptionally solid. With a few minor UX tweaks regarding build visibility, it will easily rival Vercel in ease-of-use.
+          <strong>Conclusion:</strong> Brimble's core deployment infrastructure is exceptionally solid. Once those early onboarding bugs are ironed out, it will easily rival Vercel in ease-of-use and initial developer experience.
         </div>
       </main>
 
